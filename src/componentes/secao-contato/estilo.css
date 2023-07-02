@@ -1,0 +1,62 @@
+.secao-contatos {
+    background-color: rgba(4, 4, 26, 0.957);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+   padding: 100px 20px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+}
+.contatos li {
+    list-style: none;
+}
+
+span {
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.box {
+    display: flex;
+   
+}
+
+.contatos img {
+    width: 25px;
+    height: 20px;
+    padding-right: 8px;
+}
+
+@media (max-width: 550px) {
+    .secao-contatos {
+        padding: 50px 10px;
+    }
+    .contatos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contatos div {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .secao-contatos {
+        padding: 60px 10px;
+    }
+}
